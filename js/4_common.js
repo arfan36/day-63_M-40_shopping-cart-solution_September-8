@@ -1,6 +1,7 @@
 // added comment form the browser
 // console.log('just another line')
 function getTextElementValueById(elementId) {
+    // console count : default .. 
     console.count()
     const phoneTotalElement = document.getElementById(elementId);
     const currentPhoneTotalString = phoneTotalElement.innerText;
